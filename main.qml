@@ -21,14 +21,6 @@ ApplicationWindow {
         x:200
         width: 440
         height: 480
-//        MouseArea {
-//            propagateComposedEvents: true
-//            anchors.fill: parent
-//            hoverEnabled: true
-//            onPositionChanged: {
-//                txt.text = mouseX
-//            }
-//        }
         DropArea {
             anchors.fill: parent
             onEntered: {
