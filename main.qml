@@ -31,7 +31,10 @@ ApplicationWindow {
             }
         }
     }
-
+    Text {
+        id: txt1
+        text: qsTr("name test")
+    }
     ListView {
         id:listview
         width: 200
